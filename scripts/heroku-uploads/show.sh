@@ -1,6 +1,6 @@
 #!/bin/sh
 
-API="https://serene-eyrie-91568.herokuapp.com"
+API="https://thawing-badlands-39694.herokuapp.com"
 URL_PATH="/uploads"
 
 curl "${API}${URL_PATH}/${ID}" \

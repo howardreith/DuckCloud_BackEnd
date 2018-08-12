@@ -1,7 +1,7 @@
 # DuckCloud File Management System
 ### A web application by SquishyDucks
 - Deployed Front-End: https://squishyducks.github.io/DuckCloud_FrontEnd/
-- Deployed Back-End: https://serene-eyrie-91568.herokuapp.com/
+- Deployed Back-End: https://thawing-badlands-39694.herokuapp.com/
 - Front-End Repo: https://github.com/SquishyDucks/DuckCloud_FrontEnd
 - Back-End Repo: https://github.com/SquishyDucks/DuckCloud_BackEnd
 
@@ -70,7 +70,7 @@ ERD - ![alt text](https://i.imgur.com/VcR6H3X.jpg)
 Request:
 
 ```sh
-curl "https://serene-eyrie-91568.herokuapp.com/sign-up" \
+curl "https://thawing-badlands-39694.herokuapp.com/sign-up" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
@@ -111,7 +111,7 @@ Content-Type: application/json; charset=utf-8
 Request:
 
 ```sh
-curl "https://serene-eyrie-91568.herokuapp.com/sign-in" \
+curl "https://thawing-badlands-39694.herokuapp.com/sign-in" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
@@ -152,7 +152,7 @@ Content-Type: application/json; charset=utf-8
 Request:
 
 ```sh
-curl "https://serene-eyrie-91568.herokuapp.com/change-password" \
+curl "https://thawing-badlands-39694.herokuapp.com/change-password" \
   --include \
   --request PATCH \
   --header "Authorization: Token token=${TOKEN}" \
@@ -181,7 +181,7 @@ HTTP/1.1 204 No Content
 Request:
 
 ```sh
-curl "https://serene-eyrie-91568.herokuapp.com/sign-out" \
+curl "https://thawing-badlands-39694.herokuapp.com/sign-out" \
   --include \
   --request DELETE \
   --header "Content-Type: application/json" \
@@ -216,7 +216,7 @@ All CRUD actions must include the header "Authorization: Bearer ${TOKEN}".
 Request:
 
 ```sh
-curl "https://serene-eyrie-91568.herokuapp.com/uploads" \
+curl "https://thawing-badlands-39694.herokuapp.com/uploads" \
 --include \
 --request GET \
 --header "Authorization: Bearer ${TOKEN}"
@@ -266,7 +266,7 @@ Content-Type: application/json; charset=utf-8
 Request:
 
 ```sh
-curl "https://serene-eyrie-91568.herokuapp.com/uploads/${ID}" \
+curl "https://thawing-badlands-39694.herokuapp.com/uploads/${ID}" \
   --include \
   --request GET \
   --header "Authorization: Token token=${TOKEN}"
@@ -306,7 +306,7 @@ Content-Type: application/json; charset=utf-8
 Request:
 
 ```sh
-curl "https://serene-eyrie-91568.herokuapp.com/uploads" \
+curl "https://thawing-badlands-39694.herokuapp.com/uploads" \
 --include \
 --request POST \
 --header "Content-Type: application/json" \
@@ -356,7 +356,7 @@ Content-Type: application/json; charset=utf-8
 Request:
 
 ```sh
-curl "https://serene-eyrie-91568.herokuapp.com/uploads/${ID}" \
+curl "https://thawing-badlands-39694.herokuapp.com/uploads/${ID}" \
   --include \
   --request PATCH \
   --header "Content-Type: application/json" \
@@ -388,7 +388,7 @@ HTTP/1.1 204 No Content
 Request:
 
 ```sh
-curl "https://serene-eyrie-91568.herokuapp.com/uploads/${ID}" \
+curl "https://thawing-badlands-39694.herokuapp.com/uploads/${ID}" \
   --include \
   --request DELETE \
   --header "Authorization: Token token=${TOKEN}"
